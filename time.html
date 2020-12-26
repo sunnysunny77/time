@@ -37,8 +37,7 @@
         20: "twenty",
         30: "thirty",
         40: "fourty",
-        50: "fifty",
-        60: "sixty",
+        50: "fifty"
       };
 
       let d = new Date();
@@ -83,9 +82,6 @@
           n[1] = words[t] + "\xa0" + words[i];
           var a = "It's" + "\xa0" + n[0] + "\xa0" + n[1] + "\xa0" + n[2];
         }
-      } else if (n[1] === 60) {
-        n[1] = words[60];
-        var a = "It's" + "\xa0" + n[0] + "\xa0" + n[1] + "\xa0" + n[2];
       } else if (n[1] === 0) {
         var a = "It's" + "\xa0" + n[0] + "\xa0" + n[2];
       }
